@@ -1,0 +1,77 @@
+Data types 
+
+	numeric - (10.5, 55, 787)
+	integer - (1L, 55L, 100L, where the letter "L" declares this as an integer)
+	complex - (9 + 3i, where "i" is the imaginary part)
+	character (a.k.a. string) - ("k", "R is exciting", "FALSE", "11.5")
+	logical (a.k.a. boolean) - (TRUE or FALSE)
+----------------------------------------------------------------------------------------------
+
+class(a)  # data type of a 
+----------------------------------------------------------------------------------------------
+a<-667L
+b<-4
+a+b
+c<-TRUE
+d<- 9i + 5 
+e<-"red"
+f<- 7i
+class(a)
+class(c)
+class(e)
+class(d)
+f+d 	#complex+complex
+f+a 	#int +complex
+----------------------------------------------------------------------------------------------
+as.numeric()
+as.integer()
+as.complex()
+----------------------------------------------------------------------------------------------
+max(2,55,7)
+min(3,6,12)
+sqrt()
+abs() # +ve num
+ceiling(1.4) #ans - 2
+floor(1.4)   #ans - 1
+----------------------------------------------------------------------------------------------
+
+str <- "Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."
+
+str  	# \n at break
+cat(str)	# no \n at break
+nchar(str)	#count char
+grepl("  ", str)
+grepl("j",str)		#false
+grepl("et",str)		#true
+----------------------------------------------------------------------------------------------
+
+Code	Result
+\\	Backslash
+\n	New Line
+\r	Carriage Return
+\t	Tab
+\b	Backspace
+
+----------------------------------------------------------------------------------------------
+
+Operator	Name					Example	
++	Addition					x + y	
+-	Subtraction					x - y	
+*	Multiplication					x * y	
+/	Division					x / y	
+^	Exponent					x ^ y	
+%%	Modulus (Remainder from division)		x %% y	
+%/%	Integer Division				x%/%y
+
+
+
+
+----------------------------------------------------------------------------------------------
+
+Operator	Description					Example
+:		Creates a series of numbers in a sequence	x <- 1:10
+%in%		Find out if an element belongs to a vector	x %in% y
+%*%		Matrix Multiplication				x <- Matrix1 %*% Matrix2

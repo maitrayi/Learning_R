@@ -1,0 +1,43 @@
+R programming language 
+
+#comment 
+
+"hello world!"
+----------------------------------------
+print("hello world!")
+----------------------------------------
+for (x in 1:10)
+	{print(x)
+	 }
+----------------------------------------
+for (x in 1:10){
+print("hello world!")
+print(x)}
+----------------------------------------
+name <- "John"
+age <- 40
+
+# creating variables 
+----------------------------------------
+for (x in 1:10){
+	#print("hello world!")
+	x }
+# here x will not be printed 
+----------------------------------------
+paste(text1, text2)
+----------------------------------------
+Remember that variable names are case-sensitive!
+valid
+	myvar <- "John"
+	my_var <- "John"
+	myVar <- "John"
+	MYVAR <- "John"
+	myvar2 <- "John"
+	.myvar <- "John"
+non valid
+ 	2myvar <- "John"
+	my-var <- "John"
+	my var <- "John"
+	_my_var <- "John"
+	my_v@ar <- "John"
+	TRUE <- "John"	

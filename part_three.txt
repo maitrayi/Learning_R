@@ -1,0 +1,56 @@
+
+a<- 200
+b<- 100
+
+if (a > b) {
+	print("a is grater b=than b")
+} else if (a==b){
+	print("a is equal to b")
+} else {
+	print("b is greater than a")
+}
+
+
+CORRET FORMANT WITHOUT ENTER
+
+--------------------------------------------------------------------------------------------
+
+a<- 200
+b<- 100
+
+if (a > b) {
+	print("a is grater b=than b")
+} 
+else if (a==b){
+	print("a is equal to b")
+} 
+else {
+	print("b is greater than a")
+}
+
+
+WRONG FORMANT WITH ENTER ELSE IS IN NEXT LINE XXXXXXX
+
+--------------------------------------------------------------------------------------------
+i<- 1							output
+while(i<6){						1
+	print(i)					2
+    i<- i+1						3
+    if(i==4){						(stoppes when i = 4)
+    break
+    }
+}
+--------------------------------------------------------------------------------------------
+j<- 0							output
+while(j<6){						1
+    j<- j+1						2 (3 skipped coz next) 
+    if(j==3){						4
+    next						5
+    }							6
+    print(j)
+}
+--------------------------------------------------------------------------------------------
+
+for(x in 1:10){
+	print (x)
+}

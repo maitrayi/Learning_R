@@ -1,0 +1,27 @@
+fruits <- list("apple", "banana", "cherry")
+for (x in fruits){
+	print(x)
+}
+#fruits <- list("apple", "banana", "cherry")
+#dice <- c(1, 2, 3, 4, 5, 6)
+#or 
+#dice<- 1:6
+
+d<- 1:6
+for(x in d){
+	if(x==6){
+    print(paste("The dice number is", x, "Yahtzee!"))
+    }else {
+    print(paste("The dice number is", x, "Not Yahtzee"))
+    }
+}
+#nested loop 
+
+adj <- list("red", "big", "tasty")
+
+fruits <- list("apple", "banana", "cherry", "papaya", "pineapple")
+  for (x in adj) {
+    for (y in fruits) {
+      print(paste(x, y))
+  }
+}
